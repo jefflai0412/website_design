@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 100%;
+            background-color: #efefef;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+        </tr>
+
+        <tr>
+            <th scope="row">1pm</th>
+            <td>Math</td>
+            <td>Science</td>
+            <td>Art</td>
+        </tr>
+
+        <tr>
+            <th scope="row">2pm</th>
+            <td>Science</td>
+            <td>Writing</td>
+            <td>Reading</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table cellpadding="10" cell-spacing="10">
+        <tr bgcolor="#">
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+        </tr>
+        <tr>
+            <th scope="row">7:30</th>
+            <td>Breakfast</td>
+            <td>Breakfast</td>
+            <td>Breakfast</td>
+        </tr>
+        <tr>
+            <th scope="row">8:00</th>
+            <td rowspan="2" bgcolor="#88C273">Business</td>
+            <td rowspan="3" bgcolor="#ffb94f">Physics</td>
+            <td rowspan="2" bgcolor="#88C273">Business</td>
+        </tr>
+        <tr>
+            <th scope="row">8:30</th>
+        </tr>
+        <tr>
+            <th scope="row">9:00</th>
+            <td rowspan="2">Applied Math</td>
+            <td rowspan="2">Applied Math</td>
+        </tr>
+
+        <tr>
+            <th scope="row">9:30</th>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
